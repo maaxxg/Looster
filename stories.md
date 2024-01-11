@@ -1,9 +1,9 @@
 # MVP 
-[ ] Login/signup mail + sifra + username
-[ ] Dodavanje privatnih chatova (pomocu userID, imena, emaila, link)
-[ ] Dodavanje group chatova
-[ ] Osnovne chat funkcionalnosti(slanje, brisanje)
-[ ] Deleteanje chatova
+- [ ] Login/signup mail + sifra + username
+- [ ] Dodavanje privatnih chatova (pomocu userID, imena, emaila, link)
+- [ ] Dodavanje group chatova
+- [ ] Osnovne chat funkcionalnosti(slanje, brisanje)
+- [ ] Deleteanje chatova
 
 
 ## STVARANJE RAČUNA
