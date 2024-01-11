@@ -1,3 +1,6 @@
+#MVP 
+[ ] 
+
 ## STVARANJE RAČUNA
 - login/signup s google/email+password
 - biranje username-a i profilne, inaće default imat blank sliku
