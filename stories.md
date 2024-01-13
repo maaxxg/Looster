@@ -61,3 +61,7 @@
 - Mute za određene razgovore + opcija koliko dugo - trebam pogledat za browsere kak sljakaju notifikacije
 - Mogučnost za @ određene osobe
 - Opcija odgovorit na određenu poruku kroz select
+
+## Ideje
+- image labels - npr. sve slike poslane s labelom "nova godina" ce bit na istom mjestu
+- mandatory polls - chat se ne nastavlja dok svi ne glasaju(ili oni koji nisu glasali nmg pisat poruke dok ne glasaju IDGAF)
