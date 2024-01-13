@@ -5,13 +5,14 @@
 - SvelteKit - backend(routing, ssr, api routes, etc)
 - Firebase - database 
 - SocketIO - web socket server
+- MeltUI - UI library za svelte
 
 ----------------------------------------------------
 
 - authJS - auth
 - JWT - session tokens
 
-## za lovru(pao vozaci)
+## za lovru(pao vozacki)
 
 - git add . - dodati fileove za commitanje
 - git commit -m "[neka poruka]" - commitat kod
