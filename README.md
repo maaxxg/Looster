@@ -3,7 +3,8 @@
 ## techologies
 - Svelte - frontend
 - SvelteKit - backend(routing, ssr, api routes, etc)
-- Firebase - database 
+- MongoDB - database 
+- Mongoose - komunikacija sa mongoDB
 - SocketIO - web socket server
 - MeltUI - UI library za svelte
 
