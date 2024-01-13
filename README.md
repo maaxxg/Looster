@@ -22,3 +22,6 @@
 - git checkout [ime grane] - mjenjanje grane
 - git status - status radnog tree-a (files added, not committed, nothing to add...)
 - git log - pogledati bivse commitove
+
+## test
+-aaaaaa 
