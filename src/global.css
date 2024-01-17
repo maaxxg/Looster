@@ -13,3 +13,7 @@
     --neutralDark-color: #3A3535;
     --neutralLight-color: #D9D9D9;
 }
+body {
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+}
