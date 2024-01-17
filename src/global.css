@@ -1,7 +1,4 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     --primary-color: #6147D7;
     --secondary-color: #35a8eb;
@@ -12,4 +9,9 @@
     --warning-color: #FF9900;
     --neutralDark-color: #3A3535;
     --neutralLight-color: #D9D9D9;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--foreground-color);
 }
