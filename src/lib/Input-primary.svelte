@@ -13,6 +13,7 @@
         border: var(--primary-color) 1px solid;
         border-radius: 5px;
         padding: 8px 15px;
+        margin: 5px 0;
     }
     input::placeholder {
         color: #aaa;
