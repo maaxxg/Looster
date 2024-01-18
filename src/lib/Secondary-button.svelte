@@ -4,7 +4,7 @@
     export let flat = false;
 </script>
 
-<button class:flat={flat} class:inverted={inverted}> {message} </button>
+<button on:click class:flat={flat} class:inverted={inverted}> {message} </button>
 
 <style>
     button {
@@ -18,6 +18,7 @@
         background-color: var(--secondary-color);
         cursor: pointer;
         box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.9);
+        margin: 5px 0;
     }
 
     button.inverted {
