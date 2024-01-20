@@ -1,4 +1,4 @@
-<h1>chatApp</h1>
+<h1>LOGOS</h1>
 <style>
     h1{
         font-size: 28px;
