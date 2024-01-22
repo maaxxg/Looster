@@ -10,8 +10,8 @@
     button {
         outline: none;
         border: none;
-        border-radius: 5px;
-        padding: 12px 75px;
+        border-radius: 8px;
+        padding: 12px 40px;
         font-size: 16px;
         font-weight: 500;
         color: var(--foreground-color);
@@ -24,7 +24,7 @@
     button.inverted {
         background-color: var(--foreground-color);
         color: var(--secondary-color);
-        border: var(--secondary-color) 2px solid;
+        /* border: var(--secondary-color) 2px solid; */
     }
 
     button:hover {
