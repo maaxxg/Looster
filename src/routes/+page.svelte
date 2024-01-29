@@ -104,6 +104,23 @@
         border-right: 4px solid var(--primary-color);
     }
 
+    @media only screen and (max-width: 1200px) {
+        .right {
+            display: none;
+        }
+        main {
+            width: 100%;
+            align-items: center;
+        }
+    }
+    @media only screen and (max-width: 800px) {
+        .right {
+            display: none;
+        }
+    }
+
+
+
     @keyframes typing {
         from { width: 0 }
         to { width: 100% }
