@@ -23,7 +23,9 @@
 <main>
     <div class="left">
         <h1>We'll help <br> 
-        <span class="typewriter">Connect</span>
+        <div class="type-container">
+            <div class="typed">Connect</div>
+            </div>
         </h1>
         <ButtonPrimary id="createAccount" message="Create Account" />
     </div>
@@ -86,19 +88,20 @@
         color: var(--primary-color);
         font-weight: 350;
     }
-
-    .typewriter {
-        overflow: hidden; /* Ensures the content is not revealed until the animation */
-        border-right: .15em solid white; /* The typwriter cursor */
-        white-space: nowrap; /* Keeps the content on a single line */
-        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-        letter-spacing: .1em; /* Adjust as needed */
-        width: 0;
+    .type-container{
+        display: inline-block;
+        font-family: monospace;
         color: var(--primary-color);
-        font-weight: 600;
-        animation: 
-            typing 3.5s step-end infinite,
-            blink-caret .75s step-end infinite;
+        font-size: 1.4em;
+    }
+
+    .typed {
+        overflow: hidden;
+        white-space: nowrap;
+        width: 0;
+        animation: typing 1s steps(20, end), blink 0.4s step-end infinite alternate;
+        animation-fill-mode: forwards;
+        border-right: 4px solid var(--primary-color);
     }
 
     @keyframes typing {
@@ -106,9 +109,9 @@
         to { width: 100% }
     }
 
-    /* The typewriter cursor effect */
-    @keyframes blink-caret {
-        from, to { border-color: transparent }
-        50% { border-color: white; }
+    @keyframes blink {
+        50% {
+            border-color: transparent;
+        }
     }
 </style>
