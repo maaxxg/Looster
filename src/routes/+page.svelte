@@ -114,12 +114,27 @@
         }
     }
     @media only screen and (max-width: 800px) {
-        .right {
-            display: none;
+        .left {
+            width: 100%;
+            text-align: center;
+        }
+        .left h1{
+            font-size: 4rem;
+        }
+
+        .typed {
+            font-size: 4.5rem;
         }
     }
 
-
+    @media only screen and (max-width: 400px) {
+        .left h1 {
+            font-size: 3rem;
+        }
+        .typed {
+            font-size: 3.5rem;
+        }
+    }
 
     @keyframes typing {
         from { width: 0 }
