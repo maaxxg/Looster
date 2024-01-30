@@ -8,7 +8,13 @@
     import Modal from "$lib/Modal.svelte"
     import ButtonPrimary from "$lib/Primary-button.svelte"
     import ButtonSecondary from "$lib/Secondary-button.svelte"
+    import { createDropdownMenu, melt } from '@melt-ui/svelte'
+    
+    
     let show = false;
+    const {
+        elements: { menu, item, trigger, arrow }
+    } = createDropdownMenu()
 </script>
 
 <nav>
@@ -18,6 +24,14 @@
         <Link>Contact us</Link>
         <ButtonPrimary width="30px" class="loginBtn" inverted = "true" message="Log in" />
     </ul>
+    <button class="nav-menu-btn" use:melt={$trigger}><img src="/menu.svg" alt=""></button>
+    <div class="nav-menu" use:melt={$menu}>
+        <div class="mobile-nav-link" use:melt={$item}><Link>About us</Link></div>
+        <div class="mobile-nav-link" use:melt={$item}><Link>Contact us</Link></div>
+        <div class="mobile-nav-link" use:melt={$item}><ButtonPrimary width="30px" class="loginBtn" inverted = "true" message="Log in" />
+    </div>
+    <div use:melt={$arrow} />
+    </div>
 </nav>
 
 <main>
@@ -104,6 +118,23 @@
         border-right: 4px solid var(--primary-color);
     }
 
+    .nav-menu-btn {
+        border: none;
+        outline: none;
+        background-color: var(--background-color);
+        color: white;
+        transition: all .3s;
+        display: none;
+    }
+
+    .nav-menu {
+        display: none;
+        background-color: var(--primary-color);
+        padding: 20px 10px;
+        border-radius: 5px;
+
+    }
+
     @media only screen and (max-width: 1200px) {
         .right {
             display: none;
@@ -125,6 +156,26 @@
         .typed {
             font-size: 4.5rem;
         }
+
+        .nav-links {
+            display: none;
+        }
+
+        .nav-menu-btn {
+            display: block;
+        }
+
+        .nav-menu {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: fit-content;
+        }
+
+        .mobile-nav-link {
+            margin: 5px 0;
+        }
+
     }
 
     @media only screen and (max-width: 400px) {
