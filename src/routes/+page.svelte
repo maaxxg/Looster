@@ -33,7 +33,7 @@
     <div class="nav-menu" use:melt={$menu}>
         <div class="mobile-nav-link" use:melt={$item}><Link>About us</Link></div>
         <div class="mobile-nav-link" use:melt={$item}><Link>Contact us</Link></div>
-        <div class="mobile-nav-link" use:melt={$item}><ButtonPrimary width="30px" class="loginBtn" inverted = "true" message="Log in" />
+        <div class="mobile-nav-link mobile-login" use:melt={$item}><ButtonPrimary width="30px" class="loginBtn" inverted = "true" message="Log in" />
     </div>
     <div use:melt={$arrow} />
     </div>
@@ -183,7 +183,7 @@
         }
 
         .mobile-nav-link {
-            margin: 5px 0;
+            margin: 8px 0;
         }
 
     }
