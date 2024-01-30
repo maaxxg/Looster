@@ -18,7 +18,12 @@
 </script>
 
 <nav>
-    <LogoLong />
+    <div id="logo-desktop">
+        <LogoLong />
+    </div>
+    <div id="logo-mobile">
+        <LogoShort />
+    </div>
     <ul class="nav-links">
         <Link>About us</Link>
         <Link>Contact us</Link>
@@ -135,6 +140,11 @@
 
     }
 
+    #logo-mobile {
+        display: none;
+        margin: 10px 0;
+    }
+
     @media only screen and (max-width: 1200px) {
         .right {
             display: none;
@@ -184,6 +194,12 @@
         }
         .typed {
             font-size: 3.5rem;
+        }
+        #logo-desktop {
+            display: none;
+        }
+        #logo-mobile {
+            display: block;
         }
     }
 
