@@ -27,13 +27,18 @@
     <ul class="nav-links">
         <Link>About us</Link>
         <Link>Contact us</Link>
-        <ButtonPrimary width="30px" class="loginBtn" inverted = "true" message="Log in" />
+        <a href="/login">
+            <ButtonPrimary width="30px" class="loginBtn" inverted = "true" message="Log in" />
+        </a>
     </ul>
     <button class="nav-menu-btn" use:melt={$trigger}><img src="/menu.svg" alt=""></button>
     <div class="nav-menu" use:melt={$menu}>
         <div class="mobile-nav-link" use:melt={$item}><Link>About us</Link></div>
         <div class="mobile-nav-link" use:melt={$item}><Link>Contact us</Link></div>
-        <div class="mobile-nav-link mobile-login" use:melt={$item}><ButtonPrimary width="30px" class="loginBtn" inverted = "true" message="Log in" />
+        <div class="mobile-nav-link mobile-login" use:melt={$item}>
+            <a href="/login">
+                <ButtonPrimary width="30px" class="loginBtn" inverted = "true" message="Log in" />
+            </a>
     </div>
     <div use:melt={$arrow} />
     </div>
@@ -46,7 +51,9 @@
             <div class="typed">Connect</div>
             </div>
         </h1>
-        <ButtonPrimary id="createAccount" message="Create Account" />
+        <a href="/signup">
+            <ButtonPrimary id="createAccount" message="Create Account" />
+        </a>
     </div>
     <div class="right">
         <img src="/landingSVG.svg" alt="">
