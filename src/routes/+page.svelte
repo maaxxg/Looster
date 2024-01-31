@@ -83,6 +83,7 @@
     .right {
         width: 35%;
         margin: 0;
+        max-width:1000px;
     }
 
     h1 {
