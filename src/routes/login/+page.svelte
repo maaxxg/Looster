@@ -24,7 +24,7 @@
             <span>Password</span>
             <InputPrimary placeholder="............" />
             <br>
-            <ButtonPrimary message="Login"/>
+            <ButtonPrimary type="password" message="Login"/>
             <span>
                 <a href="/" id="troubleLogin">Trouble logging in?</a>
             </span>
