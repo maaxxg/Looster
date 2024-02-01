@@ -20,9 +20,9 @@
     <Card>
         <div class="innerCard">
             <span>Username</span>
-            <InputPrimary placeholder="John Doe" />
+            <InputPrimary type="email" placeholder="John Doe" />
             <span>Password</span>
-            <InputPrimary placeholder="............" />
+            <InputPrimary type="password" placeholder="............" />
             <br>
             <ButtonPrimary type="password" message="Login"/>
             <span>

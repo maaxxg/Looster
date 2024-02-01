@@ -21,9 +21,9 @@
             <span>Username</span>
             <InputPrimary placeholder="John Doe" />
             <span>Email address</span>
-            <InputPrimary placeholder="johndoe@gmail.com" />
+            <InputPrimary type="email" placeholder="johndoe@gmail.com" />
             <span>Password</span>
-            <InputPrimary placeholder=".........." />
+            <InputPrimary type="password" placeholder=".........." />
             <ButtonPrimary message="Signup"/>
             <br>
             <span>
