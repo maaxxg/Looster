@@ -78,7 +78,8 @@
             width: 70vw;
         }
         .buttonContainer {
-            width: 70vw;
+            width: 50%;
+            margin: auto;
         }
     }
 </style>
