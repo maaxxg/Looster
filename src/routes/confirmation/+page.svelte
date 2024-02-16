@@ -75,11 +75,13 @@
             display: none;
         }
         .left {
-            width: 70vw;
+            width: 90vw;
         }
-        .buttonContainer {
-            width: 50vw;
+    }
+
+    @media only screen and (max-width: 576px){
+        .buttonContainer{
+            width:50vw;
         }
-        
     }
 </style>
