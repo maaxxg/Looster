@@ -1,5 +1,5 @@
 <div class="logo-long">
-    <h1 class="logo-heading">LOGOS</h1>
+    <h1 class="logo-heading">BLACKROCK</h1>
     <p class="logo-p">The new way of <span class="logo-span">instant<br> messaging</span></p>
 </div>
 
