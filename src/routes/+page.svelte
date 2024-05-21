@@ -26,7 +26,7 @@
     </div>
     <ul class="nav-links">
         <Link>About us</Link>
-        <Link>Contact us</Link>
+        <Link href="contact">Contact us</Link>
         <a href="/login">
             <ButtonPrimary width="30px" class="loginBtn" inverted = "true" message="Log in" />
         </a>
@@ -97,6 +97,9 @@
         font-size: 5rem;
         font-weight: 400;
         margin: 10vh 0;
+    }
+    a{
+        text-decoration: none;
     }
 
     img {
