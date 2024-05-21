@@ -9,6 +9,13 @@
     import ButtonPrimary from "$lib/Primary-button.svelte"
     import ButtonSecondary from "$lib/Secondary-button.svelte"
 </script>
+
+<div class="logoContainer">
+    <a href="/">
+        <LogoLong />
+    </a>
+</div>
+
 <div class="container">
     <form action="https://api.web3forms.com/submit" method="POST">        
         <Card>
@@ -16,15 +23,23 @@
             <input type="hidden" name="access_key" value="9d29d1e7-703e-4858-9b4f-fc42bc0e3504">
             <InputPrimary name="name" placeholder="Name"/>
             <InputPrimary name="email" placeholder="Email"/>
-            <textarea name="message" placeholder="Message" cols="40" rows="10"/>
+            <textarea name="message" placeholder="Message" cols="32" rows="10"/>
             <button type="submit">Send</button>
         </Card>
     </form>
 </div>
 
 <style>
+   .logoContainer {
+        height: 10vh;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        transition: all .5s;
+    }
     .container{
-        height: 100vh;
+        height: 90vh;
         display: flex;
         justify-content: center;
         align-items: center;

@@ -34,7 +34,7 @@
     <button class="nav-menu-btn" use:melt={$trigger}><img src="/menu.svg" alt=""></button>
     <div class="nav-menu" use:melt={$menu}>
         <div class="mobile-nav-link" use:melt={$item}><Link>About us</Link></div>
-        <div class="mobile-nav-link" use:melt={$item}><Link>Contact us</Link></div>
+        <div class="mobile-nav-link" use:melt={$item}><Link href="contact">Contact us</Link></div>
         <div class="mobile-nav-link mobile-login" use:melt={$item}>
             <a href="/login">
                 <ButtonPrimary width="30px" class="loginBtn" inverted = "true" message="Log in" />
