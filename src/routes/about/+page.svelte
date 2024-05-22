@@ -67,6 +67,7 @@
             <img src="/pfp/vili.png" alt="">
             <h3>Vili Cenko</h3>
             <h6>cenkovili11@gmail.com</h6>
+            <h6>sc - cenkovili</h6>
             <p>
                 Tester, Developer, Presenter
             </p>
