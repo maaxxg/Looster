@@ -52,7 +52,7 @@
     <div class="left">
         <h1>We'll help <br> 
         <div class="type-container">
-            <div class="typed">Connect</div>
+            <div class="typed">connect</div>
             </div>
         </h1>
         <a href="/signup">

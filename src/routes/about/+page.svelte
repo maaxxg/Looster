@@ -26,9 +26,11 @@
         </p>
     </div>
     <div class="right">
-        <img src="/aboutus.svg" alt="">
+        <img src="/about.svg" alt="">
     </div>
 </div>
+<br><br><br>
+<hr>
 <br><br><br>
 <div class="team">
     <h2>Meet the Team</h2>
@@ -36,6 +38,7 @@
         <div class="mem1">
             <img src="/pfp/maks.png" alt="">
             <h3>Maks Gregorić</h3> 
+            <h6>makregoric2@gmail.com</h6>
             <p>
                 Main Developer,
                 Team leader
@@ -44,6 +47,7 @@
         <div class="mem2">
             <img src="/pfp/marko.png" alt="">
             <h3>Marko Eror</h3>
+            <h6>darkblueshard@gmail.com</h6>
             <p>
                 Web-Designer, Graphic-designer
             </p>
@@ -52,6 +56,7 @@
         <div class="mem3">
             <img src="/pfp/bartolec.png" alt="">
             <h3>Lovro Bartolec</h3>
+            <h6>orvol.bartolec@gmail.com</h6>
             <p>
                 Assets writer, SEO specialist, developer
             </p>
@@ -60,6 +65,7 @@
         <div class="mem4">
             <img src="/pfp/vili.png" alt="">
             <h3>Vili Cenko</h3>
+            <h6>cenkovili11@gmail.com</h6>
             <p>
                 Tester, Developer, Presenter
             </p>
@@ -68,6 +74,7 @@
         <div class="mem5">
             <img src="/pfp/vlad.png" alt="">
             <h3>Vladislav Grego</h3>
+            <h6>vladislavgrego10@gmail.com</h6>
             <p>
                 Tester, Marketing specialist, presenter
             </p>
@@ -76,6 +83,7 @@
         <div class="mem6">
             <img src="/pfp/grso.png" alt="">
             <h3>Lovro Gršić</h3>
+            <h6>lovro.grsic@gmail.com</h6>
             <p>
                 SEO specialist
             </p>
@@ -97,7 +105,8 @@
     .main {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-end;
+        margin-top: 5px;
     }
 
     span {
@@ -111,10 +120,13 @@
 
     p {
         font-size: 18px;
+        width: 90%;
+        line-height: 25px;
+        letter-spacing: .8px;
     }
 
     .right img {
-        max-width: 50%;
+        max-width: 60%;
     }
 
     .members {
@@ -133,10 +145,31 @@
         flex-direction: column;
         width: 16.6%;
         align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 10px;
+        transition: all .4s;
+    }
+
+    .members div:hover {
+        background-color: #444;
     }
 
     h3 {
         margin: 10px 0 0 0;
+    }
+
+    h6 {
+        margin: 0;
+        color: #a1a1a1;
+        font-size: 12px;
+    }
+
+    hr {
+        border: 2px solid #444;
+        padding: 0;
+        margin: 0;
     }
 
     .members p {
@@ -144,9 +177,51 @@
         color: var(--neutralLight-color);
     }
 
-    @media only screen and (max-width: 850px) {
+    @media only screen and (max-width: 1300px) {
+        .right img {
+            max-width: 80%;
+        }
+    }
+
+    @media only screen and (max-width: 1150px) {
+        .right img {
+            max-width: 100%;
+        }
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .right {
+            display: none;
+        }
+        .left {
+            width: 100%;
+            padding: 10px;
+        }
+
+        .left p {
+            text-align: justify;
+            padding: none;
+            width: 100%;
+            margin-top: 0;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .main {
+            justify-content: center;
+
+        }
+    }
+
+    @media only screen and (max-width: 1000px) {
         .members div {
             width: 33%;
+        }
+
+        h2 {
+            text-align: center;
         }
     }
 
