@@ -1,6 +1,8 @@
 <div class="logo-long">
-    <h1 class="logo-heading">LUUSTER</h1>
-    <p class="logo-p">The new way of <span class="logo-span">instant<br> messaging</span></p>
+    <div class="inner-container">
+        <h1 class="logo-heading">LOOSTER</h1>
+        <p class="logo-p">The new way of <span class="logo-span">instant<br> messaging</span></p>
+    </div>
 </div>
 
 <style>
@@ -14,6 +16,16 @@
     .logo-long {
         display: flex;
         align-items: center;
+    }
+
+    .inner-container {
+        display: flex;
+        align-items: center;
+        transition: all .3s;
+    }
+
+    .inner-container:hover{
+        opacity: 0.8;
     }
 
     p {
