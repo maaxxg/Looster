@@ -19,14 +19,18 @@
 
 <nav>
     <div id="logo-desktop">
-        <LogoLong />
+        <a href="/">
+            <LogoLong />
+        </a>
     </div>
     <div id="logo-mobile">
-        <LogoShort />
+        <a href="/">
+            <LogoShort />
+        </a>
     </div>
     <ul class="nav-links">
         <Link>About us</Link>
-        <Link>Contact us</Link>
+        <Link href="contact">Contact us</Link>
         <a href="/login">
             <ButtonPrimary width="30px" class="loginBtn" inverted = "true" message="Log in" />
         </a>
@@ -34,7 +38,7 @@
     <button class="nav-menu-btn" use:melt={$trigger}><img src="/menu.svg" alt=""></button>
     <div class="nav-menu" use:melt={$menu}>
         <div class="mobile-nav-link" use:melt={$item}><Link>About us</Link></div>
-        <div class="mobile-nav-link" use:melt={$item}><Link>Contact us</Link></div>
+        <div class="mobile-nav-link" use:melt={$item}><Link href="contact">Contact us</Link></div>
         <div class="mobile-nav-link mobile-login" use:melt={$item}>
             <a href="/login">
                 <ButtonPrimary width="30px" class="loginBtn" inverted = "true" message="Log in" />
@@ -97,6 +101,11 @@
         font-size: 5rem;
         font-weight: 400;
         margin: 10vh 0;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        transition: all .5s;
     }
 
     img {

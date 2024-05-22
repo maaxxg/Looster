@@ -19,6 +19,7 @@
         cursor: pointer;
         box-shadow: 0px 2px 2px rgb(0,0,0, 0.7);
         margin: 5px 0;
+        transition: all .3s;
     }
     button.inverted {
         background-color: var(--foreground-color);
