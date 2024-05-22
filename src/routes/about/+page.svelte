@@ -22,7 +22,7 @@
         </h1>
         <br>
         <p>
-            <span>Luuster</span> is an online chat application, we try to bring people together all over the world and connect them in the simplest and most accessible way. The application can be accessed via a mobile device and a computer, but the user needs a phone number to create his own user account. We try to provide users with maximum security and keep their private things as such, and this is made possible by the high-end encryption that we used when creating Luuster itself.
+            <span>Looster</span> is an online chat application, we try to bring people together all over the world and connect them in the simplest and most accessible way. The application can be accessed via a mobile device and a computer, but the user needs a phone number to create his own user account. We try to provide users with maximum security and keep their private things as such, and this is made possible by the high-end encryption that we used when creating Luuster itself.
         </p>
     </div>
     <div class="right">
@@ -41,7 +41,8 @@
             <h6>makregoric2@gmail.com</h6>
             <p>
                 Main Developer,
-                Team leader
+                Team leader.
+                Sigma
             </p>
         </div>
         <div class="mem2">
@@ -58,7 +59,7 @@
             <h3>Lovro Bartolec</h3>
             <h6>orvol.bartolec@gmail.com</h6>
             <p>
-                Assets writer, SEO specialist, developer
+                Assets writer, SEO specialist, Developer
             </p>
     
         </div>
