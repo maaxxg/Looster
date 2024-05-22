@@ -2,8 +2,9 @@
     export let placeholder = '';
     export let type = "text"
     export let name
+    export let autocomplete = "off";
 </script>
-<input type="{type}" placeholder="{placeholder}" name="{name}">
+<input type="{type}" autocomplete="{autocomplete}" placeholder="{placeholder}" name="{name}">
 
 <style>
     input {

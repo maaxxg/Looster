@@ -18,18 +18,17 @@
 
     <Card>
         <div class="innerCard">
-            <span>Username</span>
-            <InputPrimary placeholder="John Doe" />
-            <span>Email address</span>
-            <InputPrimary type="email" placeholder="johndoe@gmail.com" />
-            <span>Password</span>
-            <InputPrimary type="password" placeholder=".........." />
+            <span>Profile picture</span>
+            <input type="file">
+            <br>
+            <span>Display name</span>
+            <InputPrimary placeholder="username123" />
             <ButtonPrimary message="Signup"/>
             <br>
             <span>
                 <div class="checkbox-wrapper-23">
                     Accept <a href="/" id="lol">Terms and Conditions</a>
-                    <input type="checkbox" id="check-23"/>
+                    <input required type="checkbox" id="check-23"/>
                     <label for="check-23" style="--size: 30px">
                     <svg viewBox="0,0,50,50">
                         <path d="M5 30 L 20 45 L 45 5"></path>
@@ -40,7 +39,6 @@
         </div>
     </Card>
     <br>
-    <span>Already have an account? <a href="/login"><span class="accent">Login!</span></a></span>
 </div>
   
 <style>

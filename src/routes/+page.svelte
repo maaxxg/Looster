@@ -31,18 +31,12 @@
     <ul class="nav-links">
         <Link href="/about">About us</Link>
         <Link href="contact">Contact us</Link>
-        <a href="/login">
-            <ButtonPrimary width="30px" class="loginBtn" inverted = "true" message="Log in" />
-        </a>
     </ul>
     <button class="nav-menu-btn" use:melt={$trigger}><img src="/menu.svg" alt=""></button>
     <div class="nav-menu" use:melt={$menu}>
         <div class="mobile-nav-link" use:melt={$item}><Link href="/about">About us</Link></div>
         <div class="mobile-nav-link" use:melt={$item}><Link href="/contact">Contact us</Link></div>
         <div class="mobile-nav-link mobile-login" use:melt={$item}>
-            <a href="/login">
-                <ButtonPrimary width="30px" class="loginBtn" inverted = "true" message="Log in" />
-            </a>
     </div>
     <div use:melt={$arrow} />
     </div>
@@ -56,7 +50,7 @@
             </div>
         </h1>
         <a href="/signup">
-            <ButtonPrimary id="createAccount" message="Create Account" />
+            <ButtonPrimary id="createAccount" message="Start chatting" />
         </a>
     </div>
     <div class="right">
@@ -118,6 +112,10 @@
         font-size: 20px;
         max-width: 70%;
         font-weight: 300;
+    }
+
+    .nav-links {
+        padding: 10px;
     }
 
     .accent {

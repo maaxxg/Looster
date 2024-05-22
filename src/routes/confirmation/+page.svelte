@@ -18,12 +18,11 @@
     <main>
         <div class="left">
             <div>
-                Thank you for joining us! 
+                Thank you for contacting us! 
+                <p>
+                    We will return your email as soon as possible!
+                </p>
                 <br><br>
-                A confirmation email has been sent to the provided email address.
-            </div>
-            <div class="buttonContainer">
-                <ButtonPrimary flat="true" message="Go to login" />
             </div>
         </div>
         <div class="right">
