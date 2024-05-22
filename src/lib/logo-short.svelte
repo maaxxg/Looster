@@ -1,4 +1,4 @@
-<h1>LUUSTER</h1>
+<h1>LOOSTER</h1>
 <style>
     h1{
         font-size: 28px;
