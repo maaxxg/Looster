@@ -15,8 +15,12 @@
         border-radius: 5px;
         padding: 8px 15px;
         margin: 5px 0;
+        transition: all .3s;
     }
     input::placeholder {
         color: #aaa;
+    }
+    input:focus {
+        border: 2px solid #9681f7;
     }
 </style>

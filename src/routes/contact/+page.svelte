@@ -47,15 +47,19 @@
 
     textarea {
         background-color: #6F6D6D;
-        border: 1px solid #6147D7;
+        border: 2px solid #6147D7;
         border-radius: 5px;
         padding: 8px 15px;
         margin: 5px 0;
         color: #fff;
         outline: none;
+        transition: all .3s;
     }
     textarea::placeholder {
         color: #aaa;
+    }
+    textarea:focus {
+        border: 2px solid #9681f7;
     }
     button {
         background-color: #6147D7;

@@ -19,10 +19,14 @@
 
 <nav>
     <div id="logo-desktop">
-        <LogoLong />
+        <a href="/">
+            <LogoLong />
+        </a>
     </div>
     <div id="logo-mobile">
-        <LogoShort />
+        <a href="/">
+            <LogoShort />
+        </a>
     </div>
     <ul class="nav-links">
         <Link>About us</Link>
@@ -100,6 +104,8 @@
     }
     a{
         text-decoration: none;
+        color: white;
+        transition: all .5s;
     }
 
     img {
