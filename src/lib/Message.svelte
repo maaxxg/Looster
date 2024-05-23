@@ -1,10 +1,15 @@
 <script>
     export let message;
-    export let incoming;
+    export let incoming=false;
+    export let name="guest";
 </script>
-
-<div class="message" class:incoming={incoming}>
-    {message}
+<div class="message-container">
+    <div class="inner-container {incoming}">
+        <h5 class="{incoming}">{name}</h5>
+        <div class="message {incoming}">
+            <slot>{message}</slot>
+        </div>
+    </div>
 </div>
 
 <style>
@@ -14,11 +19,31 @@
         padding: 10px 10px;
         border-radius: 5px;
         font-size: 18px;
-        margin: 10px 5px;
         max-width: 40vw;
     }
 
-    .incoming {
+    .message.incoming {
         background-color: rgba(194, 194, 194, 0.6);
+    }
+
+    .message-container {
+        width: 100%;
+        height: fit-content;
+        margin: 10px 0px;
+    }
+    h5 {
+        margin: 3px;
+        padding: 0;
+        color: var(--neutralLight-color);
+    }
+
+    .inner-container {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .sent {
+        float: right;
+        align-self: flex-end;
     }
 </style>

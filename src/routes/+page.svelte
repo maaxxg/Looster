@@ -11,6 +11,7 @@
     import { createDropdownMenu, melt } from '@melt-ui/svelte'
     
     
+
     let show = false;
     const {
         elements: { menu, item, trigger, arrow }
@@ -49,7 +50,7 @@
             <div class="typed">connect</div>
             </div>
         </h1>
-        <a href="/signup">
+        <a href="/chat">
             <ButtonPrimary id="createAccount" message="Start chatting" />
         </a>
     </div>
