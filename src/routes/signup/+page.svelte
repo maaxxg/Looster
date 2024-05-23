@@ -19,7 +19,7 @@
     <Card>
         <div class="innerCard">
             <span>Profile picture</span>
-            <input type="file">
+            <input type="file" multiple accept="image/*">
             <br>
             <span>Display name</span>
             <InputPrimary placeholder="username123" />
