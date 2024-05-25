@@ -3,15 +3,16 @@
 ## techologies
 - Svelte - frontend
 - SvelteKit - backend(routing, ssr, api routes, etc)
-- MongoDB - database 
-- Mongoose - komunikacija sa mongoDB
+- MongoDB - database (!)
+- Mongoose - komunikacija sa mongoDB (!)
 - SocketIO - web socket server
+- Express
 - MeltUI - UI library za svelte
 
 ----------------------------------------------------
 
-- authJS - auth
-- JWT - session tokens
+- authJS - auth (!)
+- JWT - session tokens (!)
 
 ## za lovru(pao vozacki)
 
