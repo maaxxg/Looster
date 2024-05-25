@@ -52,9 +52,9 @@
 
   <Card>
       <div class="innerCard">
-          <span>Display name</span>
-          <input required bind:value={name} class="signin" placeholder="username123" />
-          <button type="submit" on:click={signin} class="signin">Sign up</button>
+          <!-- <span>Display name</span>
+          <input required bind:value={name} class="signin" placeholder="username123" /> -->
+          <button type="submit" on:click={signin} class="signin">Enter</button>
           <br>
           <!-- <span>
               <div class="checkbox-wrapper-23">
@@ -173,6 +173,7 @@
   display: flex;
   flex-direction: column;
   width: 260px;
+  height: 50px;
 }
 a.signin{
   text-decoration: none;
