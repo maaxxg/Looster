@@ -51,7 +51,7 @@
             <h3>Lovro Bartolec</h3>
             <h6>orvol.bartolec@gmail.com</h6>
             <p>
-                Assets writer, SEO specialist, Developer
+                Assets writer, SEO specialist, Developer, Co-leader
             </p>
     
         </div>
@@ -79,7 +79,7 @@
             <h3>Lovro Gršić</h3>
             <h6>lovro.grsic@gmail.com</h6>
             <p>
-                SEO specialist
+                SEO specialist, Tester
             </p>
     
         </div>
